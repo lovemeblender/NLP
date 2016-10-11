@@ -97,12 +97,5 @@ public class SparseToDense {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
-	
-	public static void main(String[]args) {
-		SparseToDense std = new SparseToDense();
-		std.readSparse("data/out/wekaData");
-		std.writeDense("data/out/wekaDataDense");
-	}
-	
+	}	
 }
